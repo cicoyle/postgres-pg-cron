@@ -1,1 +1,1 @@
-# postgres_pg_cron
+# postgres-pg-cron
