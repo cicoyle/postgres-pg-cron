@@ -18,7 +18,7 @@ docker push cassie1coyle/postgres-pg-cron:dev
 
 Run the container and login to the db:
 ```shell
-docker run -e PG_CRON_DATABSE_NAME=postgres -e POSTGRES_PASSWORD=password -p 5432:5432 postgres-pg-cron:dev
+docker run -e PG_CRON_DB_NAME=postgres -e POSTGRES_PASSWORD=password -p 5432:5432 postgres-pg-cron:dev
 PGPASSWORD=password psql -h 127.0.0.1 -U postgres postgres
 ```
 
