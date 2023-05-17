@@ -6,4 +6,4 @@ fi
 
 echo "using pg_cron database_name $PG_CRON_DATABSE_NAME"
 
-exec docker-entrypoint.sh -c cron.database_name=${PG_CRON_DATABSE_NAME} -c shared_preload_libraries=pg_cron
+exec docker-entrypoint.sh -c cron.database_name=${PG_CRON_DB_NAME} -c shared_preload_libraries=pg_cron
