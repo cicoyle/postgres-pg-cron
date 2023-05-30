@@ -4,7 +4,7 @@ Dockerfile for Postgres with pg_cron installed on it easily made for consumption
 
 ### Configuring
 
-Environment variable `$PG_CRON_DATABSE_NAME`'s value is used as the value for the `cron.database_name` runtime parameter. Defaults to `postgres`
+Environment variable `$PG_CRON_DB_NAME`'s value is used as the value for the `cron.database_name` runtime parameter. Defaults to `postgres`
 
 ### Building
 
